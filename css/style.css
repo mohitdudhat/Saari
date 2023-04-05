@@ -1,0 +1,149 @@
+img {
+  width: 100%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.link {
+  position: relative;
+}
+
+.link:hover a::after {
+  content: " ";
+  position: absolute;
+  top: 75%;
+  left: 12px;
+  width: calc(100% - 24px);
+  background-color: black;
+  height: 1px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+ul, li {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  content: " ";
+  position: absolute;
+  top: 75%;
+  left: 12px;
+  width: calc(100% - 24px);
+  background-color: black;
+  height: 1px;
+}
+
+.container {
+  max-width: 1500px;
+}
+
+header i {
+  font-size: 18px;
+  padding: 14px;
+}
+header .off p {
+  padding: 10px 20px;
+  background-color: black;
+  font-family: "Lora";
+  color: white;
+  letter-spacing: 0.1rem;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0px;
+}
+header .logo img {
+  max-width: 120px;
+}
+header nav .nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 12px 12px !important;
+}
+
+.main .title h1 {
+  font-family: "Lora";
+  font-weight: 600;
+  margin: 25px 0px;
+  font-size: 42px;
+}
+.main .control .filter {
+  cursor: pointer;
+}
+.main .control .filter span {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.55);
+  padding-left: 8px;
+}
+.main .sort span,
+.main .product span {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.55);
+  padding-left: 8px;
+}
+.main .sort select,
+.main .product select {
+  border: 0px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.55);
+  width: 170px;
+  margin-left: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+.main .items .item .item-text h3 {
+  padding: 20px 0px 0px;
+  font-family: "Lora";
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0px;
+}
+.main .items .item .item-text .price {
+  padding: 5px 0px 20px;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 15px;
+}
+.main .items .item .item-text .price del {
+  padding-right: 10px;
+}
+
+footer {
+  background-color: #f3f3f3;
+}
+footer .footer h3 {
+  padding: 10px 20px;
+  font-family: "Lora";
+  letter-spacing: 0.1rem;
+  font-size: 19px;
+  font-weight: bolder;
+  margin: 0px 0px 20px;
+}
+footer .footer .footer-menu ul li a {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  padding: 5px 10px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+footer .footer .social i {
+  font-size: 20px;
+  padding: 13px;
+}
+footer .copyright {
+  border-top: solid 0.1rem rgba(0, 0, 0, 0.08);
+  padding-top: 3rem;
+}
+footer .copyright span, footer .copyright a {
+  font-size: 10px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.75);
+}/*# sourceMappingURL=style.css.map */
